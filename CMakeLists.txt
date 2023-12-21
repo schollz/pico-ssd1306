@@ -29,6 +29,7 @@ target_link_libraries(pico-ssd1306 pico_stdlib)
 # Add any user requested libraries
 target_link_libraries(pico-ssd1306
         hardware_spi
+        hardware_adc
         hardware_dma
         hardware_pio
         hardware_timer
